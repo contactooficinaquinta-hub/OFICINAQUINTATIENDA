@@ -81,3 +81,18 @@ footer {
   text-align: center;
   opacity: 0.6;
 }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* ===== GRID / ITEMS ===== */
+
+.item {
+  transition: 0.3s ease;
+}
+
+/* ✨ HOVER ✨ */
+.item:hover {
+  transform: scale(1.05);
