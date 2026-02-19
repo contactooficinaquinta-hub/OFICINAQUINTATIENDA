@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #f2f2f2;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.collage-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 200px;
+  gap: 12px;
+  padding: 20px;
+}
+
+/* Bloques de texto con color */
+.color-ocre {
+  background: #cdb78d;
+  color: #111;
+  grid-column: span 3;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.color-rosa {
+  background: #d897aa;
+  color: #111;
+  grid-column: span 2;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.color-verde {
+  background: #9bb39b;
+  color: #111;
+  grid-column: span 2;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Items de imagen */
+.img-block {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Tamaños de grid */
+.item-large {
+  grid-column: span 4;
+  grid-row: span 2;
+}
+
+.item-medium {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.item-small {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+footer {
+  margin: 40px;
+  text-align: center;
+  opacity: 0.6;
+}
